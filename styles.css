@@ -1,0 +1,189 @@
+/*TODO: 
+- Edit about me content
+
+  JAVASCRIPT
+- Make the fragment identifiers <a> slide instead of jump
+- Make the email me copy to clipboard
+*/
+
+/* Global Styles
+---------------------*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+/*    min-width: 550px; Tenative*/
+}
+.content-wrap {
+    margin: auto 1%;
+    color: #E7DFDD;
+}
+h2 {
+    margin: auto 0;
+}
+.heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100
+}
+a {
+    color: #E7DFDD;
+}
+.subheading {
+    padding-top: 1%;
+    text-align: center;
+    font-size: 2em;
+}
+.sub {
+    margin: auto;
+    text-align: center;
+}
+.bottom-content {
+    display: block;
+    margin-bottom: 2%;
+}
+/*Clearfix hack
+----------------------*/
+.content-wrap:after, #intro:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Column styles
+----------------------*/
+.col-left, .col-right {
+    display: inline-block;
+    width: 50%;
+/*    align-items: stretch;  MIGHT CHANGE */
+}
+.col-left {
+    text-align: right;
+    float: left;
+}
+.col-right {
+/*    text-align: left;*/
+/*    float: right;*/
+    margin: auto;
+}
+
+/* Header Styles
+---------------------*/
+header {
+    min-height: 100%;
+    background-image: url(photos/cool-skyline.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+.navbar {
+    width: 90%;
+    padding-top: 2%;
+    text-align: right;
+}
+nav a {
+    margin: auto .5%;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 200;
+}
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: cadetblue;
+}
+#profile-pic {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2%;
+}
+#name {
+    padding-left: 2%;
+    color: cadetblue;
+    font-size: 4em;
+}
+#intro {
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    margin: auto;
+    color: #0E0B16;
+}
+.sub, nav {
+    font-family: 'Spectral', serif;
+}
+
+
+/* About me Styles
+---------------------*/
+#about-me {
+    background-color: #302B54;
+    
+}
+#about-content {
+    text-align: left;
+    width: 50%;
+    line-height: 1.75em;
+}
+#resume {
+    display: inline-block;
+}
+
+/* Projects Styles
+---------------------*/
+#projects {
+    background-color: #5C246E;
+}
+
+/* Contact Styles
+---------------------*/
+#contact {
+    background-color: #862A51;
+}
+.link {
+    display: inline-block;
+}
+#contact-list {
+    list-style-type: none;
+    margin: inherit;
+    padding: inherit;
+}
+.contact-item {
+    margin: inherit;
+    padding: inherit;
+}
+
+/* Media Queries 
+---------------------*/
+@media (max-width: 650px) {
+    /*Header Styles 
+    -------------------*/
+    .navbar {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    nav a:first-child {
+        float: left;
+    }
+    nav a:nth-child(2) {
+        margin: auto
+    }
+    nav a:last-child {
+        float: right;
+    }
+    nav a {
+        display: inline-block;
+    }
+    #intro, .col-left, .col-right {
+        float: none;
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+    #name {
+        color: #E7DFDD;
+    }
+    
+    /*About Me Styles 
+    -------------------*/
+    #about-content {
+        width: 90%;
+    }    
+}
