@@ -64,6 +64,7 @@ a {
     margin: auto;
 }
 
+
 /* Header Styles
 ---------------------*/
 header {
@@ -125,11 +126,13 @@ nav a:hover {
     display: inline-block;
 }
 
+
 /* Projects Styles
 ---------------------*/
 #projects {
     background-color: #5C246E;
 }
+
 
 /* Contact Styles
 ---------------------*/
@@ -148,6 +151,7 @@ nav a:hover {
     margin: inherit;
     padding: inherit;
 }
+
 
 /* Media Queries 
 ---------------------*/
