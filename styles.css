@@ -18,24 +18,23 @@ html, body {
     margin: auto 1%;
     color: #E7DFDD;
 }
-h2 {
-    margin: auto 0;
-}
-.heading {
+h1, h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 100
+}
+h2 {
+    margin: auto 0;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 3em;
 }
 a {
     color: #E7DFDD;
 }
-.subheading {
-    padding-top: 1%;
-    text-align: center;
-    font-size: 2em;
-}
 .sub {
     margin: auto;
     text-align: center;
+    font-size: 1.1em;
 }
 .bottom-content {
     display: block;
@@ -118,8 +117,9 @@ nav a:hover {
 }
 #about-content {
     text-align: left;
-    width: 50%;
+    width: 60%;
     line-height: 1.75em;
+    
 }
 #resume {
     display: inline-block;
