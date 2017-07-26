@@ -12,11 +12,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-/*    min-width: 550px; Tenative*/
+}
+body {
+    color: #E7DFDD;
 }
 .content-wrap {
     margin: auto 1%;
-    color: #E7DFDD;
 }
 h1, h2 {
     font-family: 'Nunito', sans-serif;
@@ -52,15 +53,12 @@ a {
 .col-left, .col-right {
     display: inline-block;
     width: 50%;
-/*    align-items: stretch;  MIGHT CHANGE */
 }
 .col-left {
     text-align: right;
     float: left;
 }
 .col-right {
-/*    text-align: left;*/
-/*    float: right;*/
     margin: auto;
 }
 
@@ -95,7 +93,6 @@ nav a:hover {
 }
 #name {
     padding-left: 2%;
-    color: cadetblue;
     font-size: 4em;
 }
 #intro {
@@ -103,7 +100,6 @@ nav a:hover {
     width: 100%;
     padding-top: 2%;
     margin: auto;
-    color: #0E0B16;
 }
 .sub, nav {
     font-family: 'Spectral', serif;
@@ -181,9 +177,7 @@ nav a:hover {
         width: auto;
         text-align: center;
     }
-    #name {
-        color: #E7DFDD;
-    }
+
     
     /*About Me Styles 
     -------------------*/
